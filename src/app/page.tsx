@@ -33,7 +33,7 @@ export default function Index() {
 		},
 	]
 	return (
-		<main className="container min-h-screen text-[#fff] ">
+		<main className=" min-h-screen text-[#fff] ">
 			<nav className="pt-14 px-4">
 				<div className="container mx-auto flex items-center justify-between">
 					<div className="text-white text-2xl font-medium weight-500 text-center">
@@ -77,7 +77,7 @@ export default function Index() {
 					</a>
 				</div>
 			</nav>
-			<div className="container flex flex-col items-center mt-24 mx-auto">
+			<div className=" z-10 flex flex-col items-center mt-24 mx-auto">
 				<h1 className="font-medium text-4xl md:text-5xl lg:text-6xl text-center leading-tight md:leading-snug lg:leading-relaxed tracking-tighter md:tracking-tight lg:tracking-normal text-transparent bg-gradient-text bg-clip-text">
 					A Fast Blockchain.
 				</h1>
@@ -102,7 +102,7 @@ export default function Index() {
 			<Image
 				src="/bottom.svg"
 				alt="Vercel Logo"
-				className="px-16 fixed bottom-0 flex justify-center h-1/2 lg:h-auto w-full "
+				className="px-16 -z-10 fixed bottom-0 flex justify-center h-1/2 lg:h-auto w-full "
 				width={0}
 				height={0}
 				priority
